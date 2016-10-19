@@ -14,7 +14,7 @@ TASK 2: Prove that your function works in polynomial time.
 
 from sat import *
 
-from generate import generateSetOfTriples
+from util import generateSetOfTriples
 
 n = 5
 T = generateSetOfTriples(n, 12)

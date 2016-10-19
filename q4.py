@@ -11,7 +11,7 @@ TASK 1: Implement the 'checkSolution' function, whose skeleton is given below.
 TASK 2: Prove that your function works in polynomial time.
 """
 
-from generate import generateSetOfTriples
+from util import generateSetOfTriples
 
 n = 5
 T = generateSetOfTriples(n, 12)
